@@ -1,0 +1,75 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 10px;
+  display: inline;
+}
+
+.calculator {
+  display: block;
+  margin: 30px;
+  width: 70%;
+  min-height: 30%;
+  background: rgb(196, 196, 206);
+  flex-grow: 3;
+  float: left;
+}
+
+.calculator .input_text {
+  display: inline-block;
+  font-size: 16px;
+  color: 'black';
+  width: 40%;
+  margin: 10px;
+  height: 40px;
+  margin: 15px;
+  border-color: rgb(196, 196, 206);
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+.select {
+  font-size: 16px;
+  color: black;
+  min-width: 35%;
+  height: 40px;
+  margin: 15px;
+}
+
+.exchange_table_container {
+  width: 25%;
+  height: 100%;
+  margin: 30px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  float: right;
+}
+
+.exchange_table_item {
+  width: 100%;
+  margin: 20px;
+  border-width: 1px;
+  border-color: #222;
+}
+
+.exchange_table_item_title {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.chart_bar {
+  display: block;
+  width: 60%;
+}
+
+.dynamic_chart {
+  display: block;
+  width: 60%;
+  height: 40%;
+}
